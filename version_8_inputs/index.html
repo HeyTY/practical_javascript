@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo Objects</title>
+</head>
+
+<body>
+
+	<h1>Todo App</h1>
+
+	<!-- <button id="display">Display</button>
+	<button id="toggle">Toggle All</button> -->
+
+
+	<br>	
+	<div>
+		<button onclick="handlers.displayTodos()">Display</button>
+		<button onclick="handlers.toggleAll()">Toggle All</button>	
+	</div>
+
+	<div>
+		<input id="addTodoTextInput" type="text" name="">
+		<button onclick="handlers.addTodo()">Add Todo</button>	
+	</div>
+
+	<div>
+		<button onclick="handlers.changeTodo()">Change Todo</button>
+		<input id="changeTodoPositionInput" type="number" placeholder="Position">
+		<input id="changeTodoTextInput" type="text" placeholder="Enter Text">
+	</div>
+
+	<div>
+		<button onclick="handlers.deleteTodo()">Delete Todo</button>
+		<input id="deleteTodoPositionInput" type="number" placeholder="Position">
+	</div>
+
+
+	<div>
+		<button onclick="handlers.statusCompleted()">Status Completed</button>
+		<input id="statusCompletedPositionInput" type="number" placeholder="Position">
+	</div>
+
+	<script type="text/javascript" src="todo.js"></script>
+
+</body>
+</html>
